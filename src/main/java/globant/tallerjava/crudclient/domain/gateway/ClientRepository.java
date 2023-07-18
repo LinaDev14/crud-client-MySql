@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface ClientRepository {
 
-    Client findById(int id);
+    Client findById(Long id);
     List<Client> findByName (String name);
     List<Client> findByAge (String age);
     List<Client> findByHeight(String height);

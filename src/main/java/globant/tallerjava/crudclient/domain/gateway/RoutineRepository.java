@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface RoutineRepository {
 
-    Routine findById(int id);
+    Routine findById(Long id);
     List<Routine> findByName (String name);
     List<Routine> findByDuration(String duration);
     List<Routine> findByDifficultyLevel(String difficultyLevel);
