@@ -8,7 +8,7 @@ public class Client {
     private final int id;
     private final String name;
     private final String age;
-    private final String high;
+    private final String height;
     private final String weight;
     private final String objective;
 
