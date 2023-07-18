@@ -1,4 +1,4 @@
-package com.example.crudclient;
+package globant.tallerjava.crudclient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
